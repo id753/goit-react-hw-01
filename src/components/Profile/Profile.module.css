@@ -1,0 +1,57 @@
+/* Profile.module.css */
+.profile {
+  border: 1px solid #000000;
+  /* padding: 20px; */
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f4f4f4;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 100px;
+  background-color: #000000;
+  margin-top: 10px;
+}
+
+.profile p {
+  font-size: 16px;
+  color: #666;
+  margin: 10px;
+}
+
+.profile_p {
+  font-weight: bold;
+  color: #000000;
+}
+
+.profile ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Разделяем на 3 столбца */
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  color: #000000;
+  background-color: rgb(217, 212, 212);
+  border-top: 1px solid dimgray;
+  border-radius: 0 0 10px 10px;
+}
+
+.profile li {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.profile li::after {
+  background-color: #000000;
+}
+
+.profile span:nth-child(even) {
+  font-weight: bold;
+}
+
+.profile li:not(:last-child) {
+  border-right: 1px solid dimgray;
+}

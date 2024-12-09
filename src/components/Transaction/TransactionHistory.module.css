@@ -1,0 +1,37 @@
+.transaction {
+  width: 80%;
+  border-collapse: collapse;
+  border-color: currentcolor;
+  margin: 0 auto;
+}
+
+.transaction thead {
+  background-color: #2b2b2b;
+  font-weight: 700;
+  color: #c6c6c6;
+}
+
+.transaction th {
+  padding: 7px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.transaction td {
+  text-align: center;
+  padding: 5px;
+  border: 1px solid black;
+  text-transform: capitalize;
+}
+
+.transaction td:first-child {
+  padding: 0 auto;
+}
+
+.transaction tbody tr:nth-child(2n + 1) {
+  background-color: #fff;
+}
+
+.transaction tbody tr:nth-child(2n) {
+  background-color: #d8d3d3;
+}
